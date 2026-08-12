@@ -21,7 +21,7 @@ const NotFound = () => {
       {/* زر العودة */}
       <button
         onClick={() => handleGoBack()}
-        className="px-15 py-6 rounded-4xl bg-orange-500 text-white transition-all hover:-translate-y-2 hover:shadow-xl/40 hover:shadow-orange-500"
+        className="px-15 py-6 rounded-4xl bg-orange-500 cursor-pointer text-white transition-all hover:-translate-y-2 hover:shadow-xl/40 hover:shadow-orange-500"
       >
         back
       </button>
