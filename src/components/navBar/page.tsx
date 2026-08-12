@@ -38,7 +38,7 @@ const logoData: logoItem = {
     const navData: NavItem[] = [
     {
         link: "/",
-        content: "Homeeee",
+        content: "Home",
     },
     {
         link: "/courses",
