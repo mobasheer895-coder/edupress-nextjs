@@ -10,7 +10,7 @@ interface InfoData {
 }
 
 const contentInfo: InfoData = {
-    image: "/images/vector.png",
+    image: "/images/Vector.png",
     title: "Grow Us Your Skill With LearnPress LMS",
     description: "We denounce with righteous indignation and dislike men who are so beguiled and demoralized that cannot trouble.",
     list: ["Certification", "Certification", "Certification", "Certification"]
