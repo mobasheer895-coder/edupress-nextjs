@@ -17,7 +17,7 @@ const CategoriesContent : CategoriesData[] = [
         numberCourses : '38 Courses'
     },
     {
-        icon : '/images/icon.svg',
+        icon : '/images/Icon.svg',
         title : 'Communication',
         numberCourses : '38 Courses'
     },
