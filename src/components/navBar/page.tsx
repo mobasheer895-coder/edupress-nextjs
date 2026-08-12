@@ -58,10 +58,12 @@ const logoData: logoItem = {
     },
     ];
     const NavBar = () => {
+        
         // تفعيل الصفحة التي نكون ضمنها
     const [active, setActive] = useState("/");
     // فتح و اغلاق ايقونة القائمة عند الشاشات الصغيرة
     const [open, setOpen] = useState(false);
+    
     return (
         <nav className="flex justify-between items-center fixed z-50 w-full h-15 px-9 bg-white">
             {/* اللوغو */}
@@ -78,11 +80,11 @@ const logoData: logoItem = {
                 return (
                 <li
                     key={index}
-                    onClick={() => setActive(item.link)}
-                    className={`px-4 h-full flex items-center cursor-pointer hover:bg-gray-200 hover:text-orange-500 transition-all duration-400 ${isActive ? "bg-gray-100 text-orange-400" : ""}`}
+                    
+                    className={`px-4 h-full flex items-center cursor-pointer hover:bg-gray-100 hover:text-orange-500 transition-all duration-400 ${isActive ? "bg-gray-200 text-orange-400" : ""}`}
                 >
                     {/* رابط الصفحة */}
-                    <Link href={item.link}>{item.content}</Link>
+                    <Link href={item.link} onClick={() => setActive(item.link)}>{item.content}</Link>
                 </li>
                 );
             })}

@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { FormEvent } from "react";
 
 const NotFound = () => {
   const router = useRouter();
